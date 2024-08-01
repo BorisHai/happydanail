@@ -4,11 +4,11 @@
   "description": "create-3d-scroll-site",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack serve",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d dist"
-  },
+  "build": "webpack --mode production",
+  "dev": "webpack serve",
+  "predeploy": "npm run build",
+  "deploy": "npm run build && gh-pages -d dist"
+}, 
   "author": "X",
   "license": "ISC",
   "devDependencies": {
