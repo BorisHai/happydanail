@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Кодировка и шапка страницы -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      href="<%=require('./images/favicon/emb.png')%>"
+    />
+    <link
+      rel="icon"
+      href="<%=require('./images/favicon/favicon.ico')%>"
+      sizes="16x16"
+      type="image/x-icon"
+    />
+
+    <!-- Метатеги для браузера -->
+    <meta name="description" content="С днем рождения" />
+    <meta name="keywords" content="HTML5, CSS, JavaScript" />
+    <meta name="author" content="B" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Create 3D scroll site" />
+    <meta property="og:description" content="С днем рождения" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <title>Create 3D scroll site</title>
+  </head>
+  <body class="root">
+    <section class="gallery">
+      <article class="gallery__frame gallery__frame_bg">
+        <div class="gallery__content">
+          <h1 class="gallery__content-title gallery__content-title_main">
+            OSU!
+          </h1>
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_left">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/fudoshin.png')%>"
+            alt="fudoshin"
+          />
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_right">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/1.jpg')%>"
+            alt="Kiokushin"
+          />
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_right">
+          <h2 class="gallery__content-title">01.08.2024</h2>
+          <p class="gallery__content-text">Important date</p>
+        </div>
+      </article>
+      <article class="gallery__frame gallery__frame_bg">
+        <div class="gallery__content">
+          <video
+            class="gallery__content-media"
+            src="<%=require('./media/video.mp4')%>"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_right">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/2.jpg')%>"
+            alt="Foggy landscape"
+          />
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_left">
+          <h2 class="gallery__content-title">Karate</h2>
+          <p class="gallery__content-text">Kiokushinkai</p>
+        </div>
+      </article>
+      <article class="gallery__frame gallery__frame_bg">
+        <div class="gallery__content">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/3.jpg')%>"
+            alt="Alpine mountains"
+          />
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_left">
+          <video
+            class="gallery__content-media"
+            src="<%=require('./media/Pedro.mp4')%>"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </article>
+      <article
+        class="gallery__frame gallery__frame_two-columns gallery__frame_bg"
+      >
+        <div class="gallery__content gallery__content_position_right">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/4.jpg')%>"
+            alt="Seascape"
+          />
+        </div>
+      </article>
+      <article class="gallery__frame gallery__frame_bg">
+        <div class="gallery__content">
+          <img
+            class="gallery__content-media"
+            src="<%=require('./images/5.jpeg')%>"
+            alt="Seascape"
+          />
+        </div>
+      </article>
+      <article class="gallery__frame gallery__frame_bg">
+        <div class="gallery__content">
+          <p class="gallery__content-text">&copy; Happy birthday Danial.Osu!</p>
+        </div>
+      </article>
+    </section>
+    <img
+      class="soundbutton soundbutton_paused"
+      src="<%=require('./images/sound.gif')%>"
+      alt="Sound"
+    />
+    <audio class="audio" src="<%= require('./media/music.mp3') %>" loop></audio>
+  </body>
+</html>
