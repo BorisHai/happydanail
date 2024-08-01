@@ -7,7 +7,10 @@ const presets = [
       chrome: '64',
       safari: '11.1'
     },
-    useBuiltIns: "entry"
+    useBuiltIns: "entry",
+    corejs: 3  // Указываем версию core-js
   }]
 ];
+
 module.exports = { presets };
+
